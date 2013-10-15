@@ -271,7 +271,7 @@ public class GUI {
 							"No Radio selected", JOptionPane.ERROR_MESSAGE);
 			return;
 		} else {
-			// step config für das GUI
+			// step config f��r das GUI
 			if (setInput != true) {
 				machine.setInput(txtValue.getText(), machine.getBand1());
 				refreshBand();
@@ -291,7 +291,7 @@ public class GUI {
 	}
 
 	/*
-	 * Hilfsfunktion für Bugfixing
+	 * Hilfsfunktion f��r Bugfixing
 	 */
 	public void printband() {
 		for (int i = 0; i < bandList.size(); i++) {
